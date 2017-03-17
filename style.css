@@ -1,0 +1,73 @@
+#head {
+  margin: auto;
+  position: relative;
+  height: 100px;
+  display: block;
+  border-bottom: dashed 1px;
+}
+
+h1{
+  font-family: 'Noto Sans', sans-serif;
+  margin-bottom: -10px;
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  margin-bottom: 5px;
+}
+
+h3 {
+  font-family: 'Noto Sans', sans-serif;
+  margin-top: -18px;
+  text-size: 4px;
+}
+#logo {
+  float: left;
+}
+
+#logo2 {
+  float:left;
+  margin-top: -25px;
+}
+
+.dashed {
+
+}
+
+div {
+  float: right;
+  display: inline;
+  margin: 1px;
+  font-family: 'Noto Sans', sans-serif
+}
+
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.formList {
+  background-image: url(https://github.com/codefellows/seattle-201d20/blob/master/class-10-js_debugging-wireframe_part_2/lab/lab-assets/list-bg.png?raw=true);
+}
+.strikethrough:checked + span {
+  text-decoration: line-through;
+
+}
+
+.floatLeft {
+  font-family: 'Noto Sans', sans-serif;
+  float:left;
+  width: 45%;
+
+}
+
+#print {
+  font-family: 'Noto Sans', sans-serif;
+  float:right;
+
+}
+
+#mainImg {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
