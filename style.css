@@ -17,10 +17,11 @@ h2 {
 }
 
 h3 {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   margin-top: -18px;
   text-size: 4px;
 }
+
 #logo {
   float: left;
 }
@@ -30,8 +31,8 @@ h3 {
   margin-top: -25px;
 }
 
-.dashed {
-
+#link {
+  cursor: pointer;
 }
 
 div {
@@ -42,8 +43,8 @@ div {
 }
 
 body {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .formList {
   background-image: url(https://github.com/codefellows/seattle-201d20/blob/master/class-10-js_debugging-wireframe_part_2/lab/lab-assets/list-bg.png?raw=true);
@@ -70,4 +71,52 @@ body {
   display: block;
   margin: auto;
   width: 100%;
+}
+
+.authorBio {
+  margin-top: 50px;
+  padding-top: 50px;
+
+  border-top: 3px dashed;
+}
+
+#authorPic {
+  float: left;
+
+  margin-right: 50px;
+}
+
+.authorBio p {
+  float: left;
+
+  width: 50%;
+  margin-right: 0px;
+}
+
+#shareBtn {
+  float: right;
+
+  width: 150px;
+  height: 50px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+
+  cursor:pointer;
+
+  color: white;
+  background-color: rgb(200, 0, 0);
+}
+
+footer {
+  position: absolute;
+
+  display: block;
+  border-top: 1px solid;
+  border-color: rgba(0, 0, 0, 0.5);
+  width: 90%;
+  margin-top: 100px;
+
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.5);
 }
